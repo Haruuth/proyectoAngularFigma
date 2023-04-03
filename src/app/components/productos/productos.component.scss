@@ -1,35 +1,15 @@
 .pagina{
-    // border-style: solid;
-    height:390px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align:left;
-    width: 230px;
-    justify-content: space-between;
     background-color: white;
-    border-radius: 10px;
 
+    h1, p{
+        background-color: white;
+    }
+    img{
+        width: 300px;
+        height: auto;
+        background-color: white;
 
-}
-h1{
-    background-color: white;
-}
-p{
-    background-color: white;
-}
-
-.cuadro{
-    background-color: white;
-    
-    // height: 227;
-    // width: 220;
-    // overflow: hidden;
-}
-
-img{
-width: 220px;
-height: 190px;
-// overflow: hidden;
+    }
 }

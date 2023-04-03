@@ -14,6 +14,7 @@ import { SharedComponent } from './shared/shared.component';
 import { ModelsComponent } from './components/models/models.component';
 import { ProductosComponent } from './components/productos/productos.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FormsModule } from '@angular/forms';
     SharedComponent,
     ModelsComponent,
     ProductosComponent,
+    FooterComponent,
 
   ],
   imports: [
